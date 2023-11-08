@@ -58,11 +58,6 @@ This is done using HTML and CSS.
    ├─ queries.css
    ├─ script.js
    ├─ style.css
-```
 
 
-  <p align="center">
-    <a href="https://ibb.co/mRc1C62"><img src="https://i.ibb.co/rQwTG4z/Image-6.jpg" alt="Page for different Colleges(Mobile)" border="0"></a>
-  </p>
-    
-</details>
+  
