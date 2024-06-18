@@ -21,12 +21,12 @@ To set up the College Portal project locally, follow these steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/college-portal.git
+    git clone https://github.com/Animiiexe/Edumate.git
     ```
 
 2. Navigate to the project directory:
     ```sh
-    cd college-portal
+    cd Edumate
     ```
 
 3. Open the `index.html` file in your browser to start using the application.
