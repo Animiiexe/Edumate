@@ -1,4 +1,4 @@
-# College Portal
+# (Edumate) [https://animiiexe.github.io/Edumate/Edumate/index.html]
 
 ## Table of Contents
 1. [Introduction](#introduction)
