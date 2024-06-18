@@ -41,6 +41,10 @@ body {
   height: 7em;
 }
 .main-nav {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3em;
   display: flex;
   gap: 9.6rem;
 }
@@ -51,10 +55,6 @@ body {
 
 .nav-link:link,
 .nav-link:visited {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 3em;
   text-decoration: none;
   color: rgb(37, 36, 36);;
   display: inline-block;
