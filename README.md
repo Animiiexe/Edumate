@@ -40,7 +40,7 @@ No additional setup is required.
     - **Add College**: Click on the "Add College" button to fill out a form and submit new college details.
 
 ## Screenshots
-![Home Page](screenshots/home-page.png)
+![Home Page](EdumateDocumentation/c1.png)
 *Home Page*
 
 ![View Colleges](screenshots/view-colleges.png)
