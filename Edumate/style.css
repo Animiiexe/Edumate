@@ -25,48 +25,75 @@ body {
 }
 /* *************************************** */
 /* HEADER */
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  top: 0;
-  height: 9.6rem;
-  padding: 2rem;
-  background-color: #87c1de;
-  position: fixed;
-  z-index: 9;
-}
+  .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+      background-color: #333;
+    }
 
-.logo {
-  height: 7em;
-}
-.main-nav {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 3em;
-  display: flex;
-  position: relative;
-  gap: 4rem;
-}
-.nav {
-  display: inline-block;
-  text-decoration: none;
-}
+    .logo {
+      width: 120px;
+    }
 
-.nav-link:link,
-.nav-link:visited {
-  text-decoration: none;
-  color: rgb(37, 36, 36);;
-  display: inline-block;
-  transition: all 0.3s;
-}
+    .main-nav {
+      display: flex;
+      list-style: none;
+    }
 
-.nav-link:hover,
-.nav-link:active {
-  color: rgb(249, 244, 244);
-}
+    .nav {
+      margin-left: 20px;
+    }
+
+    .nav-link {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+    }
+
+    .nav-link:hover {
+      color: #fca311;
+    }
+
+    /* Mobile Styles */
+    @media (max-width: 768px) {
+      .main-nav {
+        display: none; /* Hide nav by default */
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #222;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+      }
+
+      .main-nav.active {
+        display: flex;
+      }
+
+      .nav {
+        margin: 10px 0;
+      }
+
+      .menu-toggle {
+        display: block;
+        background: none;
+        border: none;
+        color: white;
+        font-size: 24px;
+        cursor: pointer;
+      }
+    }
+
+    /* Desktop */
+    @media (min-width: 769px) {
+      .menu-toggle {
+        display: none;
+      }
+    }
 
 /* ************************************************** */
 /* SEARCH SECTION */
